@@ -1,0 +1,464 @@
+@media screen and (min-width: 768px) {
+	nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+		flex-direction: row;
+		width: 70%;
+	}
+    body {
+        margin: auto;
+        font-family: 'Arial';
+        background-color: #f3f9f9;
+    }
+
+    #navicon {
+        visibility: hidden;
+    }
+
+    p {
+        margin: 0px 100px;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    
+    .prim_secc {
+        margin: 50px 100px;
+        font-size: 1.6rem;
+        box-sizing: 10px;
+        background-color: black;
+        color: white;
+        padding: 15px;
+        width: 130px;
+    }
+
+    .prim_secc a:link{
+        text-decoration: none;
+        color: white;
+    }
+
+    .prim_secc a:visited{
+        text-decoration: none;
+        color: white;
+    }
+
+    .prim_secc a:active{
+        text-decoration: none;
+        color: white;
+    }
+
+    .prim_secc a:hover{
+        text-decoration: underline; 
+        color: white;
+    }
+
+    .seg_secc {
+        margin: 50px 100px;
+        font-size: 1.6rem;
+        box-sizing: 10px;
+        background-color: black;
+        color: white;
+        padding: 15px;
+        width: 240px;
+    }
+
+    .seg_secc a:link{
+        text-decoration: none;
+        color: white;
+    }
+
+    .seg_secc a:visited{
+        text-decoration: none;
+        color: white;
+    }
+
+    .seg_secc a:active{
+        text-decoration: none;
+        color: white;
+    }
+
+    .seg_secc a:hover{
+        text-decoration: underline; 
+        color: white;
+    }
+
+    .terc_secc {
+        margin: 50px 100px;
+        font-size: 1.6rem;
+        box-sizing: 10px;
+        background-color: black;
+        color: white;
+        padding: 15px;
+        width: 470px;
+    }
+
+    .terc_secc a:link{
+        text-decoration: none;
+        color: white;
+    }
+
+    .terc_secc a:visited{
+        text-decoration: none;
+        color: white;
+    }
+
+    .terc_secc a:active{
+        text-decoration: none;
+        color: white;
+    }
+
+    .terc_secc a:hover{
+        text-decoration: underline; 
+        color: white;
+    }
+
+    nav ul li {
+        width: 100%;
+        padding: 2%;    
+        list-style-type: none; 
+    }
+
+    #periodicos a,
+    #zip_conteudo a,
+    #cd a{
+        color: black;
+    }
+
+    #periodicos a:link,
+    #zip_conteudo a:link,
+    #cd a:link{
+        text-decoration: none;
+        color: black;
+    }
+
+    #periodicos a:visited,
+    #zip_conteudo a:visited,
+    #cd a:visited{
+        text-decoration: none;
+        color: black;
+    }
+
+    #periodicos a:active,
+    #zip_conteudo a:active,
+    #cd a:active{
+        text-decoration: none;
+    }
+
+    .pausa {
+      border-top: 50px solid gray;  
+      margin: 0;
+      width: 100%; 
+    }
+
+    .select-box1 {
+        width: 250px;
+        height: 50px; 
+        color: gray;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin: 40px;
+    }
+
+    .select-box2 {
+        width: 250px;
+        height: 50px; 
+        color: gray;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin: 40px;
+    }
+
+    .select-box3 {
+        width: 250px;
+        height: 50px; 
+        color: gray;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        margin: 40px;
+    }
+
+    .filtro {
+        width: 150px;
+        height: 50px;   
+        margin-top: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    form {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        margin: 0px 20px;
+        font-size: 0.8rem;
+        font-family: 'Arial';
+        background-color: #f3f9f9;
+    }
+    .divisoes {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-toggle {
+        display: block;
+        padding: 10px 10px 15px 10px;
+        background-color: #f3f9f9;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 50;
+    }
+    .hamburger {
+        width: 1.08em;
+        position: relative;
+        display: inline-block;
+        height: 0.6em;
+        font-size: 1.2em;
+        background-color: #f3f9f9;
+    }
+    .hamburger span {
+        width: 100%;
+        background: #000;
+        display: block;
+        position: absolute;
+        left: 0px;
+        height: 0.185em;
+        border-radius: 1.2px;
+    }
+    .hamburger span:nth-child(1) {
+        top: 0px;
+    }
+    .hamburger span:nth-child(2) {
+        top: 0.36em;
+    }
+    .hamburger span:nth-child(3) {
+        top: 0.73em;
+    }
+    .sidebar {
+        visibility: visible;
+        width: 100%;
+        position: fixed;
+        background: #555;
+        top: 0px;
+        left: 0px;
+        z-index: 5;
+        visibility: hidden;
+        opacity: 0;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+    }
+    nav ul li {
+        padding-top: 20px;
+        padding-right: 30px;
+        list-style-type: none;
+    }
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #periodicos a,
+    #zip_conteudo a,
+    #cd a{
+        color: black;
+    }
+
+
+    #periodicos a:link,
+    #zip_conteudo a:link,
+    #cd a:link{
+        text-decoration: none;
+        color: black;
+    }
+
+    #periodicos a:visited,
+    #zip_conteudo a:visited,
+    #cd a:visited{
+        text-decoration: none;
+        color: black;
+    }
+
+    #periodicos a:active,
+    #zip_conteudo a:active,
+    #cd a:active{
+        text-decoration: none;
+    }
+    #navicon {
+        display: none;
+    }
+    #navicon:checked ~ .sidebar {
+        visibility: visible;
+        opacity: 1;
+    }
+    #navicon:checked ~ .nav-toggle > .hamburger span {
+        top: 0.36em;
+    }
+    #navicon:checked ~ .nav-toggle > .hamburger span:nth-child(1) {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+    }
+    #navicon:checked ~ .nav-toggle > .hamburger span:nth-child(2) {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+    }
+    #navicon:checked ~ .nav-toggle > .hamburger span:nth-child(3) {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+    }
+
+    p {
+        margin: auto;
+        text-align: justify;
+        line-height: 25px;
+    }
+
+    .prim_secc {
+        margin: 50px 0px;
+        font-size: 1.3rem;
+        box-sizing: 10px;
+        background-color: black;
+        color: white;
+        padding: 15px;
+        width: 130px;
+    }
+
+    .prim_secc a:link{
+        text-decoration: none;
+        color: white;
+    }
+
+    .prim_secc a:visited{
+        text-decoration: none;
+        color: white;
+    }
+
+    .prim_secc a:active{
+        text-decoration: none;
+        color: white;
+    }
+
+    .prim_secc a:hover{
+        text-decoration: underline; 
+        color: white;
+    }
+
+    .seg_secc {
+        margin: 50px 0px;
+        font-size: 1.3rem;
+        box-sizing: 10px;
+        background-color: black;
+        color: white;
+        padding: 15px;
+        width: 160px;
+    }
+
+    .seg_secc a:link{
+        text-decoration: none;
+        color: white;
+    }
+
+    .seg_secc a:visited{
+        text-decoration: none;
+        color: white;
+    }
+
+    .seg_secc a:active{
+        text-decoration: none;
+        color: white;
+    }
+
+    .seg_secc a:hover{
+        text-decoration: underline; 
+        color: white;
+    }
+
+    .terc_secc {
+        margin: 50px 0px;
+        font-size: 1.3rem;
+        box-sizing: 10px;
+        background-color: black;
+        color: white;
+        padding: 15px;
+        width: 200px;
+    }
+
+    .terc_secc a:link{
+        text-decoration: none;
+        color: white;
+    }
+
+    .terc_secc a:visited{
+        text-decoration: none;
+        color: white;
+    }
+
+    .terc_secc a:active{
+        text-decoration: none;
+        color: white;
+    }
+
+    .terc_secc a:hover{
+        text-decoration: underline; 
+        color: white;
+    }
+
+    .select-box1 {
+        width: 180px;
+        height: 50px; 
+        color: gray;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .select-box2 {
+        width: 180px;
+        height: 50px; 
+        color: gray;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .select-box3 {
+        width: 180px;
+        height: 50px; 
+        color: gray;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .filtro {
+        width: 150px;
+        height: 50px;   
+        margin-top: 20px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    form {
+        text-align: center;
+    }
+}

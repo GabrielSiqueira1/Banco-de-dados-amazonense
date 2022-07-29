@@ -1,0 +1,108 @@
+body .sidebar{
+	    font-family: 'Arial';
+		display: flex;
+		justify-content: center;
+}
+body {
+    margin: auto;
+    font-family: 'Arial';
+    background-color: #f3f9f9;
+}
+#navicon {
+    visibility: hidden;
+}
+#planilhaGerada a:link{
+    text-decoration: none;
+    color: black;
+}
+
+#planilhaGerada a:visited{
+    text-decoration: none;
+    color: black;
+}
+
+#planilhaGerada a:active{
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    padding: 30px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+	flex-direction: row;
+	justify-content: space-around;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	flex-direction: row;
+	width: 80%;
+}
+nav ul li {
+    width: 100%;
+    padding: 2%;    
+    list-style-type: none; 
+}
+
+.table-sortable {
+	width: 80%;
+	align-items: center;
+	align-content: center;
+	margin-top: 50px;
+	margin-left: 10%;
+    text-align: center;
+    border-collapse:collapse;
+}
+ 
+.table-sortable  tbody tr{
+    border-bottom: solid 1px;
+    border-color: #D3D3D3;
+    height:50px;
+}
+.table-sortable  thead{
+    background:#D3D3D3;
+    border: solid 1px;
+    border-color: #D3D3D3;
+}
+
+.table-sortable  thead tr{
+    height: 50px;
+}
+.table-sortable  input{
+    color:navy;
+    width:100%;
+}
+.pausa {
+  	border-top: 50px solid gray;  
+  	margin: 0;
+  	width: 100%; 
+}
+.table-sortable th {
+  cursor: pointer;
+}
+.table-sortable .th-sort-asc::after {
+  content: "\25b4";
+}
+
+.table-sortable .th-sort-desc::after {
+  content: "\25be";
+}
+
+.table-sortable .th-sort-asc::after,
+.table-sortable .th-sort-desc::after {
+  margin-left: 5px;
+}
+
+.table-sortable .th-sort-asc,
+.table-sortable .th-sort-desc {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+#tabela input{
+	width: 80%;
+	height: 20px;	
+	border-radius: 10px;
+	border-style: none;
+}
